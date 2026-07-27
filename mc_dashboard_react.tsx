@@ -452,7 +452,7 @@ export default function App() {
             Typical compound growth ≈ <strong style={{ color: "#1D9E75" }}>{results.avgReturn.p50.toFixed(2)}%</strong> once volatility is allowed for
           </div>
         )}
-        {sRow("Annual volatility / σ (%)", 1, 40, .5, vol, setVol, vol.toFixed(1) + "%")}
+        {sRow("Annual volatility %", 1, 40, .5, vol, setVol, vol.toFixed(1) + "%")}
 
         {hr}
         {secLabel("Other fees")}
